@@ -7,10 +7,10 @@ def countdown(x)
   “HAPPY NEW YEAR!”
 end
 def countdown_with_sleep(x)
-  while seconds_to_midnight > 0
-    puts “#{seconds_to_midnight} SECOND(S)!”
+  while x > 0
+    puts "#{x} SECOND(S)!”
     sleep(1)
-    seconds_to_midnight -= 1
+    x -= 1
   end
   “HAPPY NEW YEAR!”
 end
